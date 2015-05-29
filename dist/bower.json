@@ -1,0 +1,19 @@
+{
+  "name": "bower install --save chai",
+  "version": "0.0.0",
+  "authors": [
+    "Logan Bledsoe <lbledsoe12@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "chai": "~2.3.0"
+  }
+}
