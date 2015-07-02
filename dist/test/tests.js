@@ -38,7 +38,7 @@ describe ('multiply', function(){
 })
 describe ('reverse', function(){
 	it('should take a string of letters and reverse them around', function(){
-		expect(reverse('abcd')).to.equal('dcsa');
+		expect(reverse('abcd')).to.equal('dcba');
 	})
 })
 describe ('findLongestWord', function(){
@@ -48,12 +48,12 @@ describe ('findLongestWord', function(){
 })
 describe ('filterLongWords', function(){
 	it('should take an array of words and an integer i and returns the array of words that are longer than i.', function(){
-		expect(filterLongWords(['cat','dog','he','billy'],1)).to.equal(['cat','dog','he','billy']);
+		expect(filterLongWords(['cat','dog','he','billy'],1)).to.eql(['cat','dog','he','billy']);
 	})
 })
-describe ('charfreq', function(){
+describe ('charFreq', function(){
 	it('takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object', function(){
-		expect(charfreq('callofduty')).to.equal({c:1,a:1,l:2,o:1,f:1,d:1,u:1,t:1,y:1});
+		expect(charFreq('callofduty')).to.eql({c:1,a:1,l:2,o:1,f:1,d:1,u:1,t:1,y:1});
 	})
 })
 
